@@ -105,12 +105,12 @@ header {
   gap: 2rem;
 }
 
-/* header .content h4 {
+header .content h4 {
   margin-bottom: 1rem;
   color: #ffffff;
   font-size:  1rem;
   font-weight: 600;
-} */
+}
 
 header .content h1 {
   color: #fff;
@@ -132,7 +132,7 @@ header .image {
   position: relative;
 }
 
-header .image::before {
+/* header .image::before {
   content: "o";
   position: absolute;
   top: 0;
@@ -144,7 +144,7 @@ header .image::before {
   color: var(--primary);
   opacity: 0.2;
   z-index: -100;
-}
+} */
 
 header .image img {
   max-width: 600px;
@@ -344,13 +344,3 @@ footer .column a {
   padding: 2rem;
   margin: auto;
 }
-
-@media (width : ) { 
-  
-}
-
-/* @media (width < 900px) {
-  .nav-links {
-    display: none;
-  }
-} */
