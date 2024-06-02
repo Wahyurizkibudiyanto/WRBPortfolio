@@ -19,8 +19,19 @@
   }
 }
 
-@media (wide < 600px) {
+@media (width < 600px) {
   header .image::before {
     display: none;
+  }
+  .features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pricing {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  footer {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
